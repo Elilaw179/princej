@@ -10,7 +10,7 @@ const Login = ({ onLogin }) => {
 
   const handleLogin = async (e) => {
     e.preventDefault();
-
+//errors catch
     try {
       const userCredential = await signInWithEmailAndPassword(
         auth,
