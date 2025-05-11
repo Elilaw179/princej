@@ -26,7 +26,7 @@ const Contact = () => {
         </div>
 
         <div className="mt-6 text-gray-300 text-lg">
-          <p className="flex justify-center items-center gap-2"><FaEnvelope className="text-yellow-400" /> princejoshua@example.com</p>
+          <p className="flex justify-center items-center gap-2"><FaEnvelope className="text-yellow-400" /> princejosjp@gmail.com</p>
         </div>
       </div>
     </section>
