@@ -22,7 +22,7 @@
 
 //   return (
 //     <div className="bg-gray-900 text-white min-h-screen flex flex-col">
-      
+
 //       {/* Toast notification setup */}
 //       <Toaster position="top-center" reverseOrder={false} />
 
@@ -60,15 +60,11 @@
 
 import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-
 import Navbar from './components/Navbar';
 import HeroSection from './components/HeroSection';
 import About from './pages/About';
-import Music from './pages/Music';
-import Gallery from './pages/Gallery';
 import Contact from './pages/Contact';
 import Footer from './components/Footer';
-
 import AdminPage from './pages/AdminPage';
 import { Toaster } from 'react-hot-toast';
 import PublicMusicGallery from './components/PublicMusicGallery';
@@ -87,9 +83,8 @@ function App() {
               <Navbar />
               <HeroSection />
               <About />
-              <PublicMusicGallery/>
-              <PublicImageGallery/>
-              
+              <PublicMusicGallery />
+              <PublicImageGallery />
               <Contact />
               <Footer />
             </>
