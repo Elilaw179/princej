@@ -39,7 +39,7 @@ const Navbar = () => {
   return (
     <nav className="bg-black text-white fixed w-full z-50 shadow-lg transition duration-300">
       <div className="max-w-6xl mx-auto flex justify-between items-center px-6 py-4">
-        <h1 className="text-5xl font-bold text-yellow-400 ">PJ</h1>
+        <h1 className="text-5xl font-bold text-yellow-400 ">JP</h1>
 
         {/* Desktop Menu */}
         <ul className="hidden sm:flex space-x-6 text-lg">

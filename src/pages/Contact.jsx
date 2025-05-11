@@ -1,5 +1,5 @@
 import React from 'react';
-import { FaInstagram, FaYoutube, FaFacebook, FaEnvelope } from 'react-icons/fa';
+import { FaInstagram, FaYoutube, FaFacebook, FaEnvelope, FaTimes, FaTiktok } from 'react-icons/fa';
 
 const Contact = () => {
   return (
@@ -11,14 +11,17 @@ const Contact = () => {
         </p>
 
         <div className="flex flex-col md:flex-row justify-center gap-6 mb-6">
-          <a href="https://instagram.com" target="_blank" rel="noreferrer" className="flex items-center gap-2 bg-gray-800 hover:bg-yellow-400 hover:text-black text-white px-5 py-3 rounded-full transition duration-300">
+          <a href="https://www.instagram.com/p/DJerIOVMVzc/?igsh=NTc4MTIwNjQ2YQ==" target="_blank" rel="noreferrer" className="flex items-center gap-2 bg-gray-800 hover:bg-yellow-400 hover:text-black text-white px-5 py-3 rounded-full transition duration-300">
             <FaInstagram className="text-xl" /> Instagram
           </a>
-          <a href="https://youtube.com" target="_blank" rel="noreferrer" className="flex items-center gap-2 bg-gray-800 hover:bg-yellow-400 hover:text-black text-white px-5 py-3 rounded-full transition duration-300">
+          <a href="https://youtube.com/shorts/U8LV_TrdBQc?si=hrSX68w56Qp_0ENJ" target="_blank" rel="noreferrer" className="flex items-center gap-2 bg-gray-800 hover:bg-yellow-400 hover:text-black text-white px-5 py-3 rounded-full transition duration-300">
             <FaYoutube className="text-xl" /> YouTube
           </a>
-          <a href="https://facebook.com" target="_blank" rel="noreferrer" className="flex items-center gap-2 bg-gray-800 hover:bg-yellow-400 hover:text-black text-white px-5 py-3 rounded-full transition duration-300">
+          <a href="https://www.facebook.com/profile.php?id=61552332580672" target="_blank" rel="noreferrer" className="flex items-center gap-2 bg-gray-800 hover:bg-yellow-400 hover:text-black text-white px-5 py-3 rounded-full transition duration-300">
             <FaFacebook className="text-xl" /> Facebook
+          </a>
+          <a href="https://vm.tiktok.com/ZMSJ4q8cn" target="_blank" rel="noreferrer" className="flex items-center gap-2 bg-gray-800 hover:bg-yellow-400 hover:text-black text-white px-5 py-3 rounded-full transition duration-300">
+            <FaTiktok className="text-xl" /> Tik Tok
           </a>
         </div>
 
