@@ -3,8 +3,8 @@ import React from 'react';
 const HeroSection = () => {
   return (
     <section
-      id="hero"
-      className="h-screen bg-cover bg-center flex flex-col justify-center items-center text-center px-4"
+      id="home"
+      className="h-[70vh] bg-cover bg-center flex flex-col justify-center items-center text-center px-4"
       style={{ backgroundImage: "url('https://img.freepik.com/premium-photo/harmonic-abstract-music-notes-background_1077802-76320.jpg?semt=ais_hybrid&w=740')" }}
     >
       <h1 className="text-5xl md:text-6xl font-bold text-white drop-shadow-lg mb-4">

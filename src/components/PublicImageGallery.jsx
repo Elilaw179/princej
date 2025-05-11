@@ -81,7 +81,7 @@ const PublicImageGallery = () => {
 
   return (
     <section id="gallery" className="py-20 px-4 md:px-8 bg-gray-900 text-white">
-      <h2 className="text-4xl font-bold text-yellow-400 text-center mb-12">🖼️ Album Gallery</h2>
+      <h2 className="text-4xl font-bold text-yellow-400 text-center mb-12">Album Gallery</h2>
 
       {imageList.length === 0 ? (
         <p className="text-center text-gray-400 mt-8">No images uploaded yet. Please check back soon!</p>
@@ -99,7 +99,7 @@ const PublicImageGallery = () => {
               <img
                 src={getPublicURL(file.name)}
                 alt={file.name}
-                className="w-full h-60 object-cover"
+                className="w-full h-90 object-cover"
               />
             </div>
           ))}
