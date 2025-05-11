@@ -1,5 +1,10 @@
 {
   "rewrites": [
+    { "source": "/admin", "destination": "/" },
+    { "source": "/about", "destination": "/" },
+    { "source": "/music", "destination": "/" },
+    { "source": "/gallery", "destination": "/" },
+    { "source": "/contact", "destination": "/" },
     { "source": "/(.*)", "destination": "/" }
   ]
 }
