@@ -2,9 +2,9 @@ import React from 'react';
 
 const Footer = () => {
   return (
-    <footer className="bg-gray-800 text-gray-400 text-center py-6 border-t border-gray-700">
+    <footer className= "bg-gray-800 text-gray-400 text-center py-6 border-t border-gray-700">
       <p>&copy; {new Date().getFullYear()} Prince Joshua. All rights reserved.</p>
-      <p className="mt-2 text-sm">Website built by Engr.Law using</p>
+      <p className="mt-2 text-sm">Website built by Engr.Law(+2348165450594)</p>
     </footer>
   );
 };

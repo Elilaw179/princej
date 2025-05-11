@@ -149,7 +149,7 @@ const PublicMusicGallery = () => {
   };
 
   return (
-    <section id="music" className="py-20 px-4 md:px-8 bg-gray-900 text-white">
+    <section id="music" className="py-10 px-4 md:px-8 bg-gray-900 text-white">
       <h2 className="text-4xl font-bold text-yellow-400 text-center mb-12">🎶 Music Gallery</h2>
 
       {musicList.length === 0 ? (

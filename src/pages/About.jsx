@@ -32,7 +32,7 @@ import React from 'react';
 
 const About = () => {
   return (
-    <section id="about" className="py-20 px-4 md:px-6 bg-gray-800">
+    <section id="about" className="py-10 px-4 md:px-6 bg-gray-800  ">
       <div className="max-w-6xl mx-auto flex flex-col md:flex-row items-center md:items-start gap-10">
 
         {/* Image Section */}
