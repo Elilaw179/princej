@@ -6,13 +6,4 @@ import tailwindcss from '@tailwindcss/vite'
 export default defineConfig({
   plugins: [react(), tailwindcss(),
   ],
-    build: {
-    outDir: 'dist',
-  },
-  server: {
-    historyApiFallback: true,   // <-- This is key for clean URLs!
-  },
-  preview: {
-    historyApiFallback: true,   // <-- This too for production preview
-  }
 })
