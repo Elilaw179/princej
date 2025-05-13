@@ -130,6 +130,7 @@
 // src/components/PublicMusicGallery.jsx
 import React, { useEffect, useState } from 'react';
 import { supabase } from '../supabaseClient';
+import { FaDownload } from 'react-icons/fa';
 
 const PublicMusicGallery = () => {
   const [musicList, setMusicList] = useState([]);
@@ -176,7 +177,7 @@ const PublicMusicGallery = () => {
                 download
                 className="bg-yellow-400 hover:bg-yellow-500 text-black font-bold py-2 rounded-full text-center transition duration-300"
               >
-                ⬇️ Download Track
+               Download Track
               </a>
             </div>
           ))}
