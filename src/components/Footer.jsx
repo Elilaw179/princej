@@ -7,6 +7,7 @@ const Footer = () => {
       <p className="mt-2 text-sm">Website built by Engr.Law(+234 816 5450 594)</p>
     </footer>
   );
-};
+}; 
+
 
 export default Footer;
