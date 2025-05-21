@@ -15,7 +15,7 @@ function App() {
   return (
     <Router>
       <div className="bg-gray-900 text-white min-h-screen flex flex-col">
-        <h1 >hell</h1>
+      
         <Toaster position="top-center" reverseOrder={false} />
 
         <Routes>
